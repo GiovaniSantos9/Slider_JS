@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 26, 26);
+}
+
+
+.container{
+    display: flex;
+    padding: 40px 4%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.63);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.interface{
+    
+}
+
+.logo{
+    color: white;
+}
+
+
+.subMenu{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    background-color: #000000;
+    border: #444444 2px solid;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.subMenu p{
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.subMenu p:hover{
+    transform: scale(1.06);
+    transition: .3s;
+
+}
+.subMenu a{
+    text-decoration: none;
+    color: white;
+}
+
+.subMenu a:hover{
+    color: #084dcc;
+    transition: .33s;   
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.mostrar{
+    display: block;
+}
+
+i{
+    margin-left: 5px;
+}
+
+.menu{
+    font-size: 19px;
+    cursor: pointer;
+    margin-right: 3px;
+    color:white ;
+}
+
+.menu:hover{
+    transform: scale(1.05);
+    transition: .3s;
+    color: #084dcc;
+}
